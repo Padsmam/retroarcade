@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - Pseudónimo</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+        body { font-family: 'Montserrat', Courier, monospace; background-color: #055227; color: rgb(161, 168, 231); text-align: center; }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <h1 style="color: rgb(103, 123, 214);">¡Hola, soy Padsmam!</h1>
+        <img src="miavatar.png" alt="Mi Avatar" class="avatar">
+        <p>Perfil para practica 3 de horas de libre configuración, creado con HTML y CSS.</p>
+        <form>
+            <label for="name">Nombre/Padsmam:</label>
+            <input type="text" id="name" name="name" placeholder="Tu pseudónimo" required>
+            <label for="email">Email (Padsmam@correo.com):</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            <label for="message">Sobre mí:</label>
+            <textarea id="message" name="message" placeholder="Nostalgico de los juegos retro, sobre todo de los arcades de las recreativas con las monedas de 5 duros"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
